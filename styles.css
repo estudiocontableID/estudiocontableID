@@ -1,0 +1,325 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #004aad;
+    color: #fff;
+    padding: 1em 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+  
+  .logo {
+    height: 50px;
+    width: auto;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: 700;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5em;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #ffdd57;
+  }
+  
+  /* Hero Section */
+  /* Hero Section */
+  #hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://plus.unsplash.com/premium_photo-1661761077411-d50cba031848?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') 
+                no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 6em 1em;
+    position: relative;
+  }
+  
+  #hero .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #hero h2 {
+    margin: 0 0 1em;
+    font-size: 3em;
+    font-weight: 700;
+  }
+  
+  #hero p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+  }
+  
+  #hero .btn {
+    background-color: #ffdd57;
+    color: #004aad;
+    text-decoration: none;
+    padding: 0.75em 1.5em;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    margin: 0 0.5em;
+  }
+  
+  #hero .btn:hover {
+    background-color: #ffaa00;
+  }
+  
+  /* Services Section */
+  #servicios {
+    text-align: center;
+    margin-top: 3em;
+  }
+  
+  #servicios h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  
+  .servicios {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .servicio {
+    background: #f9f9f9;
+    padding: 2em;
+    border-radius: 8px;
+    flex: 1 1 calc(33.333% - 2em);
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+  }
+  
+  .servicio i {
+    font-size: 2.5em;
+    color: #004aad;
+    margin-bottom: 0.5em;
+  }
+  
+  .servicio h3 {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .servicio p {
+    color: #666;
+  }
+  
+  .servicio:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .whatsapp-float {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+  }
+  
+  .whatsapp-float img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Contact Section */
+  #contacto {
+    text-align: center;
+    margin: 3em 0;
+  }
+  
+  #contacto h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  
+  #contacto .contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+  
+  .contact-links a {
+    color: #004aad;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    transition: color 0.3s;
+  }
+  
+  .contact-links a:hover {
+    color: #ffaa00;
+  }
+  
+  .contact-links i {
+    font-size: 1.5em;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+  }
+  
+  footer nav ul li a {
+    color: #ffdd57;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+  }
+  
+  footer nav ul li a:hover {
+    color: #ffaa00;
+  }
+  
+  footer p {
+    margin-top: 1em;
+    font-size: 0.9em;
+    color: #ccc;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1024px) {
+    header nav ul {
+      gap: 1em;
+    }
+  
+    #hero h2 {
+      font-size: 2.5em;
+    }
+  
+    .servicio {
+      flex: 1 1 calc(50% - 2em);
+    }
+  
+    #contacto .contact-links {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0.5em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    header .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    header nav ul {
+      flex-direction: column;
+      gap: 1em;
+    }
+  
+    #hero {
+      padding: 4em 1em;
+    }
+  
+    #hero h2 {
+      font-size: 2em;
+    }
+  
+    .servicio {
+      flex: 1 1 calc(50% - 1em);
+    }
+  
+    #contacto .contact-links {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #hero {
+      padding: 3em 1em;
+    }
+  
+    #hero h2 {
+      font-size: 1.8em;
+    }
+  
+    .servicio {
+      flex: 1 1 100%;
+    }
+  
+    form input, form textarea {
+      font-size: 0.9em;
+    }
+  
+    form button {
+      font-size: 0.9em;
+      padding: 0.6em 1.2em;
+    }
+    
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      padding: 0.5em 0;
+    }
+  
+    .logo {
+      height: 35px;
+    }
+  
+    header h1 {
+      font-size: 1em;
+    }
+  }
+  
