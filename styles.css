@@ -183,6 +183,17 @@ body {
     align-items: center;
     gap: 1em;
   }
+  .link-wsp {
+    text-decoration: none;
+    color: #004aad;
+    font-size: 1.2em;
+    gap: 0.5em;
+    transition: color 0.3s;
+  }
+    
+  .link-wsp:hover {
+    color: #ffaa00;
+  }
   
   .contact-links a {
     color: #004aad;
